@@ -7,11 +7,11 @@ import ChatDashboard from "./ChatDashboard";
 class App extends Component {
     state = {
         messages: [
-            {username: 'Asad', text: 'Hi, Ali!'},
-            {username: 'Asad', text: 'How are you?'},
-            {username: 'Ali', text: 'Hi, Asad! Good, you?'},
+            {username: 'Hola', text: 'Hi, Ninja!'},
+            {username: 'Hola', text: 'How are you?'},
+            {username: 'Ninja', text: 'Hi, Hola! Good, you?'},
         ],
-        users: [{username: 'Asad'}, {username: 'Ali'}]
+        users: [{username: 'Hola'}, {username: 'Ninja'}]
     };
 
     updateMessageListing = (message) => {
